@@ -1,0 +1,219 @@
+
+.home{
+  font-size: 30px;
+    border: 1px solid #ddd;
+    padding: 25px 30px;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+}
+.icoSec .fa{
+  font-size: 45px;
+  vertical-align: middle;
+  color: #019fb6;
+}
+.detSec h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.expDet:first-child{margin-top: 0px}
+.expDet{margin-top: 20px;}
+.posName{
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.posName .compName{
+    margin-left: 5px;
+    font-size: 16px;
+    color: #888;
+    font-weight: 400;
+}
+.workTen{
+  font-size: 14px;
+  font-weight: 600;
+  color: #019fb6;
+}
+.locName{
+  font-size: 14px;
+  float: right;
+  color: #9d9d9d;
+  padding-top: 5px;
+}
+.jobRole{
+      font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.jdList ul{
+  padding-left: 17px;
+  font-size: 14px;
+}
+.weWraper{
+  height: 459px;
+    float: left;
+    overflow-y: scroll;
+    width: 100%;
+}
+.expDet table{font-size: 14px;}
+.expDet table thead{background: #f5f5f5;}
+.navCont{
+  font-size: 14px;
+  font-weight: 600;
+}
+.myInfo ul{
+  width: 50%;
+  float: left;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+}
+.myInfo ul li p {
+    display: inline-block;
+    color: #35373e;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.abtMe .expDet{margin: 0}
+.dpWrap:hover,.myDp img:hover{
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+}
+.myDp:hover .myMantra{
+  color: #565656;
+  transition: all 0.5s ease-in-out;
+}
+.myDesc p{
+  font-size: 14px;
+  text-align: justify;
+}
+.myDesc{float:left}
+.myDesc p span{
+  font-size: 20px;
+  font-weight: 600;
+  color: #019fb6;
+}
+.myInterest{
+  float: left;
+  margin-top: 20px;
+}
+.myInterest ul{
+  padding: 0;
+  list-style: none;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.myInterest ul li{
+  display: inline-block;
+  padding: 10px 47px;
+}
+.myInterest p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+.myInterest ul li span{
+  transition: all 0.4s ease-in-out;
+}
+.myInterest ul li span:hover{
+  transform: scale(1.5);
+  color:#019fb6!important;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer
+}
+.nav-port{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.nav-port li:first-child{margin-left: 0}
+.nav-port li{
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition:all 0.5s ease-in-out;
+    /*background: #ddd;*/
+    border:2px solid #019fb6;
+
+}
+.nav-port li:hover{
+  transition:all 0.5s ease-in-out;
+  box-shadow: 0 0 0 3px #019fb6;
+  border:2px solid #fff!important;
+  background-color: #019fb6;
+  color:#fff!important;
+}
+.portContainer{
+  padding:15px;
+  margin-top: 30px;
+  border:1px solid #ddd;
+  float: left;
+  width: 100%;
+  height: 375px;
+}
+.portContainer img{
+  width: 100%;
+  height: 140px;
+  margin: 15px 0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+.overlayPort{
+  display: block;
+  /*position: absolute;*/
+  left: 15px;
+  top: 15px;
+  background-color: rgba(0,0,0,0.2);
+  width:100%;
+  height: 140px;
+}
+.homeNg{
+
+  background-size: cover;
+  background-position: center;
+  height: 568px;
+}
+.homeNg h2{color: #fff}
+.expDet h1.introLab{
+  font-weight: 600;
+    font-size: 65px;
+    color: #fff;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    width: 65%;
+    margin: 15px auto;
+}
+.expDet p.introName{
+  font-size: 24px;
+    text-align: center;
+    color: #019fb6;
+    font-style: italic;
+}
+.homeNg .expDet{
+  padding: 160px 0;
+}
+.contactForm label{
+  font-size: 18px;
+  width: 20%;
+  display: inline-block;
+  text-align:right;
+  margin-right: 10px;
+}
+.contactForm input{
+  width: 50%;
+  display: inline-block;
+}

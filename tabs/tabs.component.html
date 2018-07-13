@@ -1,0 +1,88 @@
+<div class="home">
+  <div class="col-md-1 icoSec">
+      <span class="fa fa-image"></span>
+  </div>
+  <div class="col-md-11 detSec">
+    <h2>Portfolio</h2>
+    <div class="expDet">
+      <div class="navCont">
+
+        <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" (click)="showHideWeb()">Home</a></li>
+    <li><a data-toggle="tab" (click)="showHidePsd()">Menu 1</a></li>
+    <li><a data-toggle="tab" (click)="showHideCreate()">Menu 2</a></li>
+    <li><a data-toggle="tab" (click)="showHideGraph()">Menu 3</a></li>
+  </ul>
+       <div *ngIf="isWebsite" class="portContainer">
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+       </div>
+       <div *ngIf="isPsd" class="portContainer">
+        <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+       </div>
+       <div *ngIf="isCreate" class="portContainer">
+       <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="../assets/images/portfolio/wk-advies-logo.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="../assets/images/portfolio/Logo3.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+       </div>
+       <div *ngIf="isGraph" class="portContainer">
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <span class="overlayPort"></span>
+            <img src="" alt="">
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
